@@ -127,7 +127,7 @@ export const serviceData = [
     { 
         icon: assets.databaseIcon, // or faDatabase
         title: 'API Integration & Backend Basics', 
-        description: 'Build secure APIs with Prisma (MySQL/PostgreSQL) and Mongoose (MongoDB ODM). Handle databases, authentication, and CRUD operations efficiently.', 
+        description: 'Build secure REST/GraphQL APIs with Prisma (MySQL/PostgreSQL) and Mongoose (MongoDB ODM). Handle databases, authentication, and CRUD operations efficiently.', 
         link: 'https://www.prisma.io/docs' 
     },
     { 
