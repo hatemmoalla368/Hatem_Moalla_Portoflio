@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+}
+/* Define theme variables */
+:root {
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001F;
+}
+
+/* Define dark mode variables */
+[data-theme="dark"] {
+  --color-lightHover: #2a004a; /* Optional override for dark mode */
+  --color-darkHover: #fcf4ff; /* Optional override for dark mode */
+  --color-darkTheme: #ffffff; /* Example for dark mode text color */
+}
+
+/* Usage in Custom Utility Classes */
+@layer utilities {
+  .hover-lightHover {
+    background-color: var(--color-lightHover);
+  }
+  .hover-darkHover {
+    background-color: var(--color-darkHover);
+  }
+  .text-darkTheme {
+    color: var(--color-darkTheme);
+  }
+}

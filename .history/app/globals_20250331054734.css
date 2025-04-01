@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+}
+@theme {
+ 
+  
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001F;
+  --boxshadow-dark : 4px 4px 0 #000;
+  
+  
+  
+}
+@layer utilities {
+  .hover-lightHover {
+    background-color: var(--color-lightHover);
+  }
+  .hover-darkHover {
+    background-color: var(--color-darkHover);
+  }
+  .text-darkTheme {
+    color: var(--color-darkTheme);
+  }
+}

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+}
+@layer utilities {
+  /* Custom colors */
+  .lightHover {
+    background-color: #fcf4ff;
+  }
+  .bg-darkHover {
+    background-color: #2a004a;
+  }
+  .text-darkTheme {
+    color: #11001F;
+  }
+
+  /* Custom font families */
+  .font-Outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-Ovo {
+    font-family: 'Ovo', serif;
+  }
+
+  /* Custom box shadows */
+  .shadow-black {
+    box-shadow: 4px 4px 0 #000;
+  }
+  .shadow-white {
+    box-shadow: 4px 4px 0 #fff;
+  }
+
+  /* Custom grid template columns */
+  .grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
