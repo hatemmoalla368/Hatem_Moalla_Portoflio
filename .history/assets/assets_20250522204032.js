@@ -93,7 +93,7 @@ export const workData = [
     {
         title: 'Next js gestion de center des etudes ',
         description: 'with calendar, prisma, mui, crud, cash managment',
-        bgImage: "/work-7.png",
+        bgImage: "/work-5.png",
         link: "https://centredesetudes-nextjs-prisma-calender-cashmanagment.vercel.app/"
     },
     {

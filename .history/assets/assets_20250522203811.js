@@ -85,6 +85,24 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Next js electronic E-commerce',
+        description: 'with nextauth, MUI, prisma, use-shopping-cart, dashboard',
+        bgImage: "/work-5.png",
+        link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
+    },
+    {
+        title: 'Next center des etudes managment',
+        description: 'with calnder, prisma, crud, dashboard',
+        bgImage: "/work-5.png",
+        link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
+    },
+    {
+        title: 'Next js football blog',
+        description: 'with sanity, tailwindcss',
+        bgImage: "/work-6.png",
+        link: "https://football-highlights-with-nextjs-sanity-szv6.vercel.app/"
+    },
+    {
         title: 'Next js Bikezz E-commerce',
         description: 'with sanity, tailwindcss, stripe',
         bgImage: "/work-1.png",

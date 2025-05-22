@@ -85,6 +85,18 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Next js electronic E-commerce',
+        description: 'with nextauth, MUI, use-shopping-cart, dashboard',
+        bgImage: "/work-5.png",
+        link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
+    },
+    {
+        title: 'Next js football blog',
+        description: 'with sanity, tailwindcss',
+        bgImage: "/work-5.png",
+        link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
+    },
+    {
         title: 'Next js Bikezz E-commerce',
         description: 'with sanity, tailwindcss, stripe',
         bgImage: "/work-1.png",
@@ -127,7 +139,7 @@ export const serviceData = [
     { 
         icon: assets.databaseIcon, // or faDatabase
         title: 'API Integration & Backend Basics', 
-        description: 'Build secure REST/GraphQL APIs with Prisma (MySQL/PostgreSQL) and Mongoose (MongoDB ODM). Handle databases, authentication, and CRUD operations efficiently.', 
+        description: 'Build secure APIs with Prisma (MySQL/PostgreSQL) and Mongoose (MongoDB ODM). Handle databases, authentication, and CRUD operations efficiently.', 
         link: 'https://www.prisma.io/docs' 
     },
     { 

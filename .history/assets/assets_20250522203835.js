@@ -91,10 +91,10 @@ export const workData = [
         link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
     },
     {
-        title: 'Next js gestion de center des etudes ',
-        description: 'with calendar, prisma, mui, crud, cash managment',
-        bgImage: "/work-7.png",
-        link: "https://centredesetudes-nextjs-prisma-calender-cashmanagment.vercel.app/"
+        title: 'Next center des etudes managment',
+        description: 'with calendar, prisma, crud, dashboard',
+        bgImage: "/work-5.png",
+        link: "https://nextjs-ecommerce-with-nextauth-crud-middleware.vercel.app/"
     },
     {
         title: 'Next js football blog',
